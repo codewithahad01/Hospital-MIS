@@ -1,0 +1,57 @@
+
+#banner {
+	min-height:100px;
+	background-color:lightblue;
+}
+
+#banner h1, #banner img {
+	float:left;
+}
+
+#banner h1 {
+	margin-left:10px;
+	margin-top:30px;
+}
+
+#menu {
+	height:30px;
+	background-color:black;
+	color: black;
+}
+
+#content {
+	min-height:480px;
+	background-color:#FCFCFC;
+	padding:10px;
+}
+
+#footer {
+	height:100px;
+	padding-top:15px;
+	background-color:black;
+	text-align:center;
+	color: gray;
+}
+#content h1{
+	margin: 0%;
+}
+.input-group{
+	margin-bottom: 7px;
+}
+.panel-heading h1{
+	margin: 0;
+	font-size: 24px;
+	margin-bottom: 0 !important;
+}
+.input-group-addon{
+	width: 110px;
+}
+.input-group{
+	width: 100%;
+}
+
+@media print{ 
+	.noprint{
+		display: none;
+	}
+}
